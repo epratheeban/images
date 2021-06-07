@@ -8,3 +8,5 @@ plots and graphs
 
 
 https://drive.google.com/file/d/1yo1TnqyL9FHWhGteRUzty4Tz9g3HWndI/view?usp=sharing
+
+wget https://drive.google.com/u/0/uc?export=download&confirm=Exsw&id=1yo1TnqyL9FHWhGteRUzty4Tz9g3HWndI
