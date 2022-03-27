@@ -2,7 +2,7 @@
 sudo apt install -y python3-pip
 sudo -H pip3 install -U jetson-stats
 pip3 install gdown
-gdown https://drive.google.com/uc?id=19yXDpF90Lr4J23cdGCVHPeFSyGCVR3VN
+gdown 19yXDpF90Lr4J23cdGCVHPeFSyGCVR3VN
 unzip setup_jetson.zip
 cd setup_jetson
 chmod x+u opencv-install.sh
@@ -62,5 +62,6 @@ sudo pip3 install -U --user wheel mock pillow
 sudo -H pip3 install testresources
 sudo -H pip3 install setuptools==58.3.0
 sudo -H pip3 install install torch-1.10.0-cp36-cp36m-linux_aarch64.whl
-#
+
+# Torchvision installation
 ##sudo -H pip3 install torchvision-0.11.0a0+fa347eb-cp36-cp36m-linux_aarch64.whl
