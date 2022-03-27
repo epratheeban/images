@@ -40,6 +40,7 @@ pip3 install llvmlite
 pip3 install numba
 
 ### Install Dlib
+cd setup_jetson
 DLIB_FILE="dlib-19.23.tar.bz2"
 tar xvf ${DLIB_FILE}
 cd dlib-19.23/
