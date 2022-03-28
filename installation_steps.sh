@@ -18,8 +18,8 @@ sudo apt-get install libgeos-c1v5
 #
 ### Pip installation
 pip3 install Cython==0.29.28
-pip3 install numpy==1.13.3
-pip3 install scipy==0.19.1
+pip3 install numpy==1.21.0
+pip3 install scipy==1.7.0
 pip3 install hydra-core==1.1.1
 pip3 install omegaconf==2.1.1
 pip3 install pandas==0.22.0
@@ -38,6 +38,7 @@ export LLVM_CONFIG=/usr/bin/llvm-config-10
 cd ..
 pip3 install llvmlite
 pip3 install numba
+cd ..
 
 ### Install Dlib
 cd setup_jetson
