@@ -63,7 +63,9 @@ sudo -H pip3 install future
 sudo pip3 install -U --user wheel mock pillow
 sudo -H pip3 install testresources
 sudo -H pip3 install setuptools==58.3.0
+echo $PWD
 sudo -H pip3 install install torch-1.10.0-cp36-cp36m-linux_aarch64.whl
+
 
 # Torchvision installation
 ##sudo -H pip3 install torchvision-0.11.0a0+fa347eb-cp36-cp36m-linux_aarch64.whl
