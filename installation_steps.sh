@@ -5,8 +5,8 @@ pip3 install gdown
 gdown 19yXDpF90Lr4J23cdGCVHPeFSyGCVR3VN
 unzip setup_jetson.zip
 cd setup_jetson
-chmod x+u opencv-install.sh
-chmod x+u clean_jetson.sh
+chmod u+x opencv-install.sh
+chmod u+x clean_jetson.sh
 
 sh ./clean_jetson.sh
 
