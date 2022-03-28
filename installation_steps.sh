@@ -18,8 +18,8 @@ sudo apt-get install libgeos-c1v5
 #
 ### Pip installation
 pip3 install Cython==0.29.28
-pip3 install numpy==1.21.0
-pip3 install scipy==1.7.0
+pip3 install 'https://github.com/jetson-nano-wheels/python3.6-numpy-1.19.4/releases/download/v0.0.1/numpy-1.19.4-cp36-cp36m-linux_aarch64.whl'
+pip3 install 'https://github.com/jetson-nano-wheels/python3.6-scipy-1.5.4/releases/download/v0.0.1/scipy-1.5.4-cp36-cp36m-linux_aarch64.whl'
 pip3 install hydra-core==1.1.1
 pip3 install omegaconf==2.1.1
 pip3 install pandas==0.22.0
