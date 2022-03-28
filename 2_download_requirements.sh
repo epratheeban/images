@@ -6,8 +6,7 @@ cd setup_jetson
 chmod u+x opencv-install.sh
 chmod u+x clean_jetson.sh
 cd ..
-
 mkdir Datasets && cd Datasets
 mkdir Kapsch && cd Kapsch
-
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1qQzjBgBpnorkrsyG0ex-bAsl5q513tJI' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1qQzjBgBpnorkrsyG0ex-bAsl5q513tJI" -O 012_sabinas_lane6_day_60d_normal.mp4 && rm -rf /tmp/cookies.txt
 cd
