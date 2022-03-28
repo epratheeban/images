@@ -7,3 +7,9 @@ cd setup_jetson
 chmod u+x opencv-install.sh
 chmod u+x clean_jetson.sh
 cd ..
+
+mkdir Datasets && cd Datasets
+mkdir Kapsch && cd Kapsch
+gdown 1qQzjBgBpnorkrsyG0ex-bAsl5q513tJI
+cd 
+
